@@ -10,16 +10,16 @@ def main(argv):
     inputSharpness = 0
 
     try:
-        opts, args = getopt.getopt(argv,"hi:ms:",["ifile=","min-sharpness="])
+        opts, args = getopt.getopt(argv,"hi:ms:",["input-file=","min-sharpness="])
     except getopt.GetoptError:
-        print ('bestmoments.py -i <inputfile> -ms <min-sharpness>')
+        print ('bestmoments.py -i <input-file> -ms <min-sharpness>')
         sys.exit(2)
 
     for opt, arg in opts:
         if opt == '-h':
-            print ('bestmoments.py -i <inputfile> -ms <min-sharpness>')
+            print ('bestmoments.py -i <input-file> -ms <min-sharpness>')
             sys.exit()
-        elif opt in ("-i", "--ifile"):
+        elif opt in ("-i", "--input-file"):
             inputFile = arg
         elif opt in ("-ms", "--min-sharpness"):
             inputSharpness = arg

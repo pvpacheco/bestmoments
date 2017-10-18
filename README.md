@@ -11,6 +11,16 @@ It generates snapshots for sharing.
 python bestmoments.py -i sample.mp4 -ms 50
 ```
 
+## Command line arguments
+<pre>
+  -i sample.mp4, --input-file sample.mp4     path video file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -ms 50, --min-sharpness 50     minimum frame sharpness to consider
+</pre>
+
+
 ## Sample Results
 ![Alt text](screenshot.png?raw=true)
 
