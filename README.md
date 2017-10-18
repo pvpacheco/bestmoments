@@ -12,12 +12,13 @@ python bestmoments.py -i sample.mp4 -ms 50
 ```
 
 ## Command line arguments
-<pre>
-  -i sample.mp4, --input-file sample.mp4     path video file
+<pre>usage:
+    bestmoments.py -i sample.mp4
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -ms 50, --min-sharpness 50     minimum frame sharpness to consider
+options:
+    -h, --help                      show this help message and exit
+    -i FILE, --input-file FILE      path video file
+    -ms 50, --min-sharpness 50      minimum frame sharpness to consider
 </pre>
 
 
