@@ -7,8 +7,8 @@ It generates snapshots for sharing.
 - Frame sharpness: you can define a minimum frame sharpness or quality, bellow that limit the script will ignore the frame.
 
 ## Basic Usage
-<pre>usage:
-    bestmoments.py -i sample.mp4
+<pre>
+bestmoments.py -i sample.mp4
 
 options:
     -h, --help                      show this help message and exit
