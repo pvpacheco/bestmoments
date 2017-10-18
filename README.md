@@ -7,11 +7,6 @@ It generates snapshots for sharing.
 - Frame sharpness: you can define a minimum frame sharpness or quality, bellow that limit the script will ignore the frame.
 
 ## Basic Usage
-```sh
-python bestmoments.py -i sample.mp4 -ms 50
-```
-
-## Command line arguments
 <pre>usage:
     bestmoments.py -i sample.mp4
 
@@ -19,6 +14,9 @@ options:
     -h, --help                      show this help message and exit
     -i FILE, --input-file FILE      path video file
     -ms 50, --min-sharpness 50      minimum frame sharpness to consider
+
+sample:
+    python bestmoments.py -i sample.mp4 -ms 50
 </pre>
 
 
